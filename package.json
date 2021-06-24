@@ -1,7 +1,7 @@
 {
-  "name": "node-http-server",
+  "name": "Simple-Mudae-Bot",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "selfbot simples pra claimar personagens da Mudae automaticamente.",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js"
