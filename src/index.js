@@ -17,7 +17,7 @@ client.on("message", (msg) => {
   const nomeDoPersonagem = msg.embeds[0].author.name;
   const personagens = JSON.parse(fs.readFileSync("./src/personagens.json"));
   personagens.forEach((item, index) => {
-    if (nomeDoPersonagem.includes(item)) {
+    if (nomeDoPersonagem === item) {
       msg.react("😄");
     }
   });
